@@ -12,7 +12,6 @@
 <p>Saiba mais sobre as funções acima na documentação: <a href="https://developer.mozilla.org/en-US/docs/Web/API/setTimeout">SetTimeout( ) , <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/setInterval">setInterval( )</a>.</p>
 
 
-<h1>In English</h1>
 <h1>🚩 Goal</h1>
 <p>The target of this project was to create an otp password generator in which the user clicks on the "generate password" button and a combination of numbers and a counter will immediately appear. When the time reaches zero the password will expire and it will be necessary to generate another code. </p>
 <h3>Definition</h3>
