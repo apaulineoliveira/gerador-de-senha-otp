@@ -1,6 +1,9 @@
-# 🚩 Objetivo
-<p>O objetivo desse projeto foi criar um gerador de senha otp em que ao usuário clicar no botão "gerar senha" de imediato irá aparecer uma combinação de números e um contador. Quando o tempo chegar a zero a senha irá expirar e será necessário gerar outro código. </p>
-<h3>Definição</h3>
+ <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" height="50" width="50"/>
+
+<h1 align="center">Objetivo</h1>
+  <p>O objetivo desse projeto foi criar um <b>Gerador de Senha OTP</b> em que ao usuário clicar no botão "gerar senha" de imediato aparecerá uma combinação de números juntamente a um contador. Quando o tempo chegar a zero a senha irá expirar e será necessário gerar outro código.</p>
+
+<h2 align>Definição</h2>
 <p>Uma senha de uso único (OTP) é uma sequência de números e/ou caracteres que é gerada e enviada a um usuário para ser usada em uma única tentativa de login ou transação. Também denominada como senha descartável ou senha de uso único.</p>
 <h3>Pontos relevantes do projeto</h3>
 <li>A função aleatória é usada para gerar OTP aleatório que é predefinido na biblioteca Math.</li>
