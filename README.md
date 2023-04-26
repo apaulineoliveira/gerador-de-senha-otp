@@ -3,8 +3,11 @@
 <h1 align="center">Objetivo</h1>
   <p>O objetivo desse projeto foi criar um <b>Gerador de Senha OTP</b> em que ao usuário clicar no botão "gerar senha" de imediato aparecerá uma combinação de números juntamente a um contador. Quando o tempo chegar a zero a senha irá expirar e será necessário gerar outro código.</p>
 
-<h2 align>Definição</h2>
-<p>Uma senha de uso único (OTP) é uma sequência de números e/ou caracteres que é gerada e enviada a um usuário para ser usada em uma única tentativa de login ou transação. Também denominada como senha descartável ou senha de uso único.</p>
+<br> 
+
+<h2 align="center">Sobre o Projeto</h2>
+<p>Uma senha de uso único (OTP) é uma sequência de números e/ou caracteres que é gerada e enviada ao usuário para ser usada em uma <b>única</b> tentativa de login ou transação, por esse motivo, a senha também é chamada de "descartável".</p>
+
 <h3>Pontos relevantes do projeto</h3>
 <li>A função aleatória é usada para gerar OTP aleatório que é predefinido na biblioteca Math.</li>
 <li>A função Math.floor retorna o piso de qualquer número flutuante para um valor inteiro.( )</li>
