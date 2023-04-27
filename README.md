@@ -24,10 +24,10 @@
    
    <li>Dentro do laço de repetição com <code>for</code> determinei que o índice será <code>0</code>, e qual o número máximo de digitos que será fornecido para compôr a senha; Em questão, otpei por uma senha de 6 dígitos;</li>
    
-   <li>Além disso, com <code>setTimeout( )</code> e <code>setInterval( )</code> criei uma função para que a cada 10 minutos a página seja recarregada forçando o usuário a precisar gerar um novo  código. O que lê-se como se o código OTP tivesse <b>expirado</b>.</li>
+   <li>Além disso, com <code>setTimeout()</code> e <code>setInterval()</code> criei uma função para que a cada 10 minutos a página seja recarregada forçando o usuário a precisar gerar um novo  código. O que lê-se como se o código OTP tivesse <b>expirado</b>.</li>
  </ul>
  
-   <p>Saiba mais sobre as funções utilizadas e mencionadas acima, na documentação da MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/API/setTimeout">SetTimeout( ) , <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/setInterval">setInterval( )</a>.</p>
+   <p>Saiba mais sobre as funções utilizadas e mencionadas acima, na documentação da MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/API/setTimeout">SetTimeout() , <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/setInterval">setInterval()</a>.</p>
  </ul>
 
 
