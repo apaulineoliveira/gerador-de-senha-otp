@@ -1,5 +1,6 @@
  <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" height="50" width="50"/>
 
+<p>Visualização do Projeto: </p>
 <h1 align="center">Objetivo</h1>
   <p>O objetivo desse projeto foi criar um <b>Gerador de Senha OTP</b> em que ao usuário clicar no botão "gerar senha" de imediato aparecerá uma combinação de números juntamente a um contador. Quando o tempo chegar a zero a senha irá expirar e será necessário gerar outro código.</p>
 
