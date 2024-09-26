@@ -23,7 +23,7 @@ body {
 }
 
 .container p {
-    margin: 20px; /* Reduzi a margem geral dos parágrafos */
+    margin: 55px; 
     font-family: sans-serif;
     font-size: 12px;
     text-align: center;
@@ -32,8 +32,8 @@ body {
 
 .container h2 {
     color: rgb(9, 9, 9);
-    text-align: center; /* Centraliza o texto */
-    margin: 5% 0 0 0; /* Reduz a margem superior */
+    text-align: center; 
+    margin: 5% 0 0 0; 
     font-family: sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -45,7 +45,7 @@ body {
     font-family: sans-serif;
     font-size: 10px;
     font-weight: 200;
-    margin-top: 2%; /* Reduzi a margem superior */
+    margin-top: 2%; 
 }
 
 #textarea {
@@ -117,9 +117,10 @@ body {
 }
 
 #countdown {
-    color: #a4a4a4;
-    font-size: 1.5rem;
+    color: #262626;
+    font-size: 12px;
     font-family: sans-serif; 
     text-align: center; 
-    margin: 1% 0 0 0; 
+    font-weight: l;
+    margin: 2% 0 0 0; 
 }
