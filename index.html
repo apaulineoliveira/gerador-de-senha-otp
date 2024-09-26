@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de senha OTP</title>
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="src/style.css">    
 </head>
 <body>
    <div class="container">    
-        <h1>Generate OTP</h1>
-        <p>Clique no botão abaixo para gerar uma senha OTP</p>
-        <button type="text" onclick="generateOTP()">Gerar senha</button>                
+        <p id="titulo">Gerador de Senhas</p>
+        <h1 id="titulo_principal">Gerar Senha OTP</h1>
+        <p>Clique no botão abaixo para gerar uma senha nova senha OTP. A senha será exibida abaixo junto com uma contagem.</p>
+        
+        <div>
+        <button type="text" onclick="generateOTP()">GERAR SENHA</button></div>                
         <h3>Sua senha OTP é: <br> <span></span></h3>
         <p id="countdown"></p>         
    </div>
-<script src="script.js"></script>
+<script src="src/script.js"></script>
 </body>
 </html>

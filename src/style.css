@@ -3,20 +3,30 @@
     padding: 0;    
 }
 body {
-    background-color: rgb(21, 25, 68);
+    background-color: #EDEEF0;
 }
-.container h1 {
+#titulo {
     font-family: sans-serif;   
-    font-weight: 400; 
+    font-weight: bold; 
+    font-size: 15px;   
+    text-align: center;    
+    color:rgb(9, 9, 9);
+}
+
+#titulo_principal {
+    font-family: sans-serif;   
+    font-weight: bold; 
     font-size: 20px;   
     text-align: center;    
-    color:rgb(30, 37, 105);
+    color:rgb(9, 9, 9);
 }
+
 .container p {
     margin: 30px;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
+    color: #193238;
 }
 .container {       
     max-width: 300px;
@@ -28,21 +38,28 @@ body {
     border-radius: 2px;
     color: gray;
 }
-.container button {      
-   width: 90px;
-   margin: 0 auto;
-   padding: 3%;
-   background: rgb(26, 31, 82);  
-   border: none;
-   border-radius: 3px;
-   font-size: 15px;   
-   color: #fff;
-   cursor: pointer; 
-   display: flex;  
-   align-content: center;  
+
+.container button {    
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 4%;
+    background: #17C6ED;  
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;   
+    color: #fff;
+    cursor: pointer; 
+    display: flex;  
+    align-content: center;
+    justify-content: center;
+    width: 235px; 
+    border-radius: 8px;
 }
+
+
+
 .container button:hover {
-    background:  #22477a;
+    background:  #14a8c9;
 }
 .container h3 {
     color: gray;
