@@ -1,4 +1,3 @@
-<p>https://gerador-senha-otp.netlify.app/</p>
 
 ##
 
