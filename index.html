@@ -11,14 +11,16 @@
    <div class="container">    
         <p id="titulo">Gerador de Senhas</p>
         <h1 id="titulo_principal">Gerar Senha OTP</h1>
-        <p>Clique no botão abaixo para gerar uma senha nova senha OTP. A senha será exibida abaixo junto com uma contagem.</p>
+        <p>Clique no botão abaixo para gerar uma senha OTP. A senha será exibida abaixo junto com uma contagem.</p>
         
         <div>
         <button type="text" onclick="generateOTP()">GERAR SENHA</button></div> 
         
         <h2>Sua senha é:</h2>
-                       
-        <h3>Sua senha OTP é: <br> <span></span></h3>
+        <p class="senha">Senha gerada:</p>
+        <textarea class="" id="textarea" placeholder="" readonly></textarea>
+
+        <h2>Tempo restante:</h2>
         <p id="countdown"></p>         
    </div>
 <script src="src/script.js"></script>
