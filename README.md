@@ -1,7 +1,7 @@
 
 ##
 
-![Demonstração do vídeo](./tela.png) 
+![Demonstração do vídeo](./nova-visu.png) 
 
 
 
