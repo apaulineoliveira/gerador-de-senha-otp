@@ -28,6 +28,17 @@ body {
     text-align: center;
     color: #193238;
 }
+
+.container h2 {
+    color: rgb(9, 9, 9);
+    text-align: left;
+    margin: 10%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
 .container {       
     max-width: 300px;
     margin: 150px auto;   
