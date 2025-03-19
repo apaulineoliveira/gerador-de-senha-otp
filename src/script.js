@@ -38,6 +38,9 @@ function generateOTP() {
   }
 }
 
-setTimeout(function() {
-  window.location.reload(1);
-}, 600000);
+const atualizaPagina = () => {
+	window.location.reload(1);
+};
+
+setTimeout(atualizaPagina, 600000);
+
