@@ -1,6 +1,6 @@
 function gerarOTP() {
     const numeros = "0123456789"; 
-    let codigoOTP = gerarCodigoAleatorio(numeros, 6); 
+    const codigoOTP = gerarCodigoAleatorio(numeros, 6); 
     document.querySelector('#campoTexto').value = codigoOTP;
     iniciarContagemRegressiva(10); // Inicia a contagem de 10 minutos
 }
