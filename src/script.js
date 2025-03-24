@@ -2,16 +2,18 @@ function gerarOTP() {
     const numeros = "0123456789"; 
     const codigoOTP = gerarCodigoAleatorio(numeros, 6); 
     document.querySelector('#campoTexto').value = codigoOTP;
-    iniciarContagemRegressiva(10); // Inicia a contagem de 10 minutos
+    iniciarContagemRegressiva(10); 
 }
 
-function gerarCodigoAleatorio(alfabeto, comprimento) {
-    let codigo = '';
-    for (let i = 0; i < comprimento; i++) {
-        codigo += alfabeto[Math.floor(Math.random() * alfabeto.length)];
+
+function gerarSequenciaAleatoria(conjuntoCaracteres, tamanho) {
+    let sequencia = '';
+    for (let i = 0; i < tamanho; i++) {
+        sequencia += conjuntoCaracteres[Math.floor(Math.random() * conjuntoCaracteres.length)];
     }
-    return codigo;
+    return sequencia;
 }
+
 
 
 function iniciarContagemRegressiva(minutos) {
